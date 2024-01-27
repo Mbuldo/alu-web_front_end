@@ -1,0 +1,5 @@
+/* Correct usage */
+.selector {
+    max-width: 1140px;
+  }
+  
