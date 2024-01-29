@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Margin mixin*/
 
 @mixin margin($marginVal) {
@@ -13,3 +14,20 @@ body {
 div {
     @include margin(15px);
 }
+=======
+/*Margin mixin*/
+
+@mixin margin($marginVal) {
+    margin-left: $marginVal;
+    margin-right: $marginVal;
+}
+
+
+body {
+    @include margin(10px);
+}
+  
+div {
+    @include margin(15px);
+}
+>>>>>>> 2ba8aa57664c9a1471307f11e574e37aec505ad4

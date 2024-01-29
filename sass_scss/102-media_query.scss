@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*More media queries*/
 
 h1 {
@@ -15,3 +16,12 @@ h1 {
         }
     }
 }
+=======
+/*Columns and operatiors*/
+
+@for $i from 1 through 4 {
+    .col-#{$i} {
+        width: 100%/$i;
+    }
+}
+>>>>>>> 2ba8aa57664c9a1471307f11e574e37aec505ad4

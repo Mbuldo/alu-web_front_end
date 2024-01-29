@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Assign properties*/
 
 $text_color: #3D3D3D;
@@ -15,3 +16,22 @@ p {
 h2 {
     background-color: $background_color;
 }
+=======
+/*Assign properties*/
+
+$text_color: #3D3D3D;
+$background_color: #6D6D6D;
+
+body {
+    color: $text_color;
+    background-color: $background_color;
+}
+  
+p {
+    color: $text_color;
+}
+  
+h2 {
+    background-color: $background_color;
+}
+>>>>>>> 2ba8aa57664c9a1471307f11e574e37aec505ad4
